@@ -10,13 +10,13 @@ function Slide() {
     <>
       <Carousel showThumbs={false} showStatus={false} className="slider">
         <div>
-          <img className="photoslide" src={Slider1} alt="burger" />
+          <img className="photoslide" src={Slider1} alt="burgers-slide1" />
           <Link className="legend" to="/about">
             Venez tenter de concevoir votre burger ultime !
           </Link>
         </div>
         <div>
-          <img className="photoslide" src={Slider2} />
+          <img className="photoslide" src={Slider2} alt="burgers-slide2" />
           <Link className="legend" to="/menu">
             Venez découvrir nos recettes originales !
           </Link>
