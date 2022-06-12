@@ -63,6 +63,7 @@ function Header() {
                   className="nav-link"
                   href="https://www.ubereats.com/fr/store/big-swap/rXjT2ytyWiOhmxlWSnbabQ"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Uber Eats
                 </a>

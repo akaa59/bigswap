@@ -1,0 +1,87 @@
+.background-404-img {
+  width: 100%;
+  height: 600px;
+  object-fit: fill;
+}
+
+.element-404 {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.element-404 p {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.element-404 a {
+  font-size: 1.5em;
+  border: 2px solid #ffa53b;
+  border-radius: 30px;
+  padding: 1%;
+  background-color: #ffa53b;
+  text-decoration: none;
+  color: white;
+}
+
+.element-404 a:hover {
+    background-color: #e9902a;
+  }
+
+
+  @media screen and (max-width: 1100px) {
+    .element-404 p {
+        margin-bottom: 4%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .background-404-img{
+        height: 400px;
+    }
+    .element-404 p {
+        font-size:1.4em;
+    }
+
+    .element-404 a {
+        font-size:1.2em;
+        padding: 2%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .background-404-img{
+        height: 300px;
+    }
+    .element-404 p {
+        font-size:1.2em;
+    }
+
+    .element-404 a {
+        font-size:1em;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .element-404 p {
+        font-size:1em;
+    }
+
+    .element-404 a {
+        font-size:0.8em;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .background-404-img{
+        height: 250px;
+    }
+    .element-404 p {
+        font-size:0.8em;
+    }
+
+    .element-404 a {
+        font-size:0.7em;
+    }
+  }

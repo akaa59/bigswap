@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 import "../components/Header/Header.css";
 import FritesData from "./Data/FritesData";
 import "../components/Card/Card.css";
+import Footer from "../components/Footer/Footer";
+import "../components/Footer/Footer.css";
 
 function Frites() {
   return (
@@ -14,7 +15,7 @@ function Frites() {
           {FritesData.map((item) => (
             <div id="item" key={item.id}>
               <div className="item-photo">
-                <img src={item.img}/>
+                <img src={item.img} alt="frites"/>
               </div>
               <div className="item-nom">
                 <p>{item.nom}</p>
@@ -26,6 +27,7 @@ function Frites() {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

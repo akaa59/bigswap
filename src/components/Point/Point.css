@@ -1,0 +1,45 @@
+.contenu-point {
+  display: flex;
+  text-align: center;
+  padding: 2% 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contenu-point-icon {
+  color: #e2e2e2;
+  font-size: 2.5em;
+}
+
+.contenu-point-text h4 {
+  font-weight: lighter;
+  margin: 0%;
+  color: #ffffff;
+}
+
+.contenu-point-text p {
+  font-weight: normal;
+  margin: 0%;
+  color: #c5c5c5;
+  font-size: 0.8em;
+  padding: 2% 15%;
+}
+
+@media screen and (max-width: 600px) {
+  .contenu-point-icon {
+    font-size: 2em;
+  }
+
+  .contenu-point-text h4 {
+    font-size: 0.8em;
+  }
+
+  .contenu-point-text p {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .contenu-point{
+        flex-direction: column
+    }
+}

@@ -207,8 +207,8 @@
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   position: absolute;
-  bottom: 500px;
-  left: 50%;
+  bottom: 300px;
+  left: 60%;
   margin-left: -45%;
   width: 25%;
   border-radius: 10px;
@@ -277,5 +277,27 @@
 .photoslide {
   margin: 0;
   width: 98vw;
-  height: 90vh;
+  height: 88vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 810px) {
+  .carousel .slide .legend {
+  font-size:1.5em;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .carousel .slide .legend {
+  font-size:1.2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel .slide .legend {
+  font-size:1em;
+  padding:5%;
+  width:50%;
+  }
+
 }

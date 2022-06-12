@@ -3,49 +3,115 @@
   background-color: #1d1d1b;
 }
 
-.container {
+.footer-container {
   padding: 2vh 0vw;
 }
 
-.navbar {
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-.navbar-ul {
+.footer-container{
   display: flex;
   align-items: center;
-  padding: 0 20px;
-  list-style-type: none;
+  justify-content: center;
+  margin:auto;
 }
 
-.navbar-nav {
-  text-align: center;
-  list-style: none;
+.footer-container-1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+.footer-container-1 h3{
+  border-bottom: 3px solid #ffa53b;
+  padding-bottom:2%;
+  text-transform: uppercase;
   
 }
 
-.navbar-item {
-padding: 0 20px;
-
+.footer-container-1-a{
+text-decoration:none;
+color:white;
+padding-top:2%;
+margin-top:4%;
 }
 
-.nav-item .nav-link {
-  padding: 5px 20px;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 5px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  font-size: 1.2rem;
+.footer-container-1-a:hover{
+  font-weight: 550;
 }
 
-.nav-item:hover .nav-link,
-.nav-link {
-  color: #ffa53b;
+.footer-container-2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
   text-decoration: none;
+  margin-left: 5%;
+}
+
+.footer-container-2 h3{
+  border-bottom: 3px solid #ffa53b;
+  padding-bottom:2%;
+  text-transform: uppercase;
+  width:50%;
+  text-align: center;
+}
+
+.footer-container-2 p{ 
+  font-size:0.9em;
+  margin:0%;
+  margin-top:1%;
+}
+.footer-container-2-p{ 
+  display:flex;
+  align-items: center;
+}
+
+
+.footer-container-2 a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container-2 a:hover{
+  color: white;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.logo-container{
+  text-align: center;
+  margin-top:2%;
+  font-size:1.5em;
+  color: white;
+  padding: 0 5%;
+  background-color:#0f0f0f;
+}
+
+.logo-container svg{
+  padding: 10px 1%;
+  color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+  .footer-container{
+      flex-direction: column;
+  }
+
+
+
+  .footer-container-1 a{
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  .footer-container-2 p{
+    font-size:0.8em;
+  }
+
+  .footer-container-2 h3{
+    text-align: center;
+    width: 70%;
+  }
+
 }

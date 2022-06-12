@@ -5,6 +5,7 @@ import Menu from "./pages/Menu.js";
 import Burgers from "./pages/Burgers.js";
 import Frites from "./pages/Frites.js";
 import About from "./pages/About.js";
+import Order from "./pages/Order.js";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/menu/burgers" element={<Burgers/>}/>
         <Route path="/menu/frites" element={<Frites/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/order" element={<Order/>}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>
     </>
