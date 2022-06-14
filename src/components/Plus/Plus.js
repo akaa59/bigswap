@@ -46,7 +46,8 @@ function Plus() {
 
         <div className="compo-card-plus-icon">
           <Link to="/menu">
-            <BsPlusSquareFill />
+            <BsPlusSquareFill 
+            color="#1d1d1b"/>
           </Link>
         </div>
       </div>
