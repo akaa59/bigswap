@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import "../components/Header/Header.css";
-
+import Footer from "../components/Footer/Footer";
+import "../components/Footer/Footer.css";
 
 
 function Order() {
