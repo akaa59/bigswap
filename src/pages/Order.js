@@ -21,6 +21,7 @@ function Order() {
       s.parentNode.insertBefore(z, s)
     })();
     </script>  */}
+    <Footer />
     </>
   );
 }

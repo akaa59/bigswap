@@ -10,7 +10,6 @@ function CardMenu() {
       <div className="contenu-card">
         <div className="card-menu">
           <div className="flip-card">
-            <a href="/menu/burgers">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img className="flip-logo" src={BurgerLogo} alt="Burger logo" />
@@ -21,11 +20,9 @@ function CardMenu() {
                 </Link>
               </div>
             </div>
-            </a>
           </div>
           
           <div className="flip-card">
-          <a href="/menu/frites">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img className="flip-logo" src={FritesLogo} alt="Frites logo" />
@@ -36,7 +33,6 @@ function CardMenu() {
                 </Link>
               </div>
             </div>
-          </a>
           </div>
         </div>
       </div>

@@ -66,6 +66,9 @@ text-decoration: none;
     padding: 2px 16px;
   }
   
+  .compo-card-plus-icon path {
+    stroke:#1d1d1b;
+  }
   @media screen and (max-width: 1100px) {
     #hidden {
       visibility: collapse;

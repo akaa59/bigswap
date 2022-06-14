@@ -6,7 +6,6 @@ import { MdLocationPin } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 
-
 function Contact() {
   return (
     <>
@@ -23,19 +22,36 @@ function Contact() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
           <div className="contenu-contact-flex-text">
-          <p className="contenu-contact-flex-text-p"><MdAccessTimeFilled/> Lundi - Dimanche: 11:00 - 23:00</p>
-          <p className="contenu-contact-flex-text-p"><MdLocationPin/> 5 Rue Tavelle, 59400 Cambrai</p>
-          <p className="contenu-contact-flex-text-p"><AiFillPhone/> 09 63 64 32 94</p>
-          <p className="contenu-contact-flex-text-p"><MdMail/>
-            <Link
-              to="#"
-              onClick={() =>
-                (window.location = "mailto:contact-bigswap@bigswap.fr")
-              }
-            >
-             contact-bigswap@bigswap.fr
-            </Link>
-          </p>
+            <p className="contenu-contact-flex-text-p">
+              <MdAccessTimeFilled />
+               Lundi - Dimanche: 11:00 - 23:00
+            </p>
+            <p className="contenu-contact-flex-text-p">
+              <MdLocationPin />
+               5 Rue Tavelle, 59400 Cambrai
+            </p>
+            <p className="contenu-contact-flex-text-p">
+              <AiFillPhone /> 
+              <Link
+                to="#"
+                onClick={() =>
+                  (window.location = "tel:0963643294")
+                }
+              >
+                 09 63 64 32 94
+              </Link>
+            </p>
+            <p className="contenu-contact-flex-text-p">
+              <MdMail />
+              <Link
+                to="#"
+                onClick={() =>
+                  (window.location = "mailto:contact-bigswap@bigswap.fr")
+                }
+              >
+                 contact-bigswap@bigswap.fr
+              </Link>
+            </p>
           </div>
         </div>
       </div>
